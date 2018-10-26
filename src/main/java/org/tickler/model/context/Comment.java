@@ -1,4 +1,4 @@
-package model.context;
+package org.tickler.model.context;
 
 import javax.persistence.Entity;
 import java.util.Date;

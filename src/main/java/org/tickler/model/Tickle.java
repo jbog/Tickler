@@ -1,10 +1,11 @@
-package model;
+package org.tickler.model;
 
-import model.actions.TriggerAction;
-import model.context.Comment;
-import model.factories.TickleFactory;
+import org.tickler.model.actions.TriggerAction;
+import org.tickler.model.context.Comment;
+import org.tickler.model.factories.TickleFactory;
 
 import javax.persistence.Entity;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
@@ -14,7 +15,7 @@ import java.util.HashSet;
  * Created by jasper on 12/10/18.
  */
 @Entity
-public class Tickle {
+public class Tickle implements Serializable {
     private Long identifier;
     private String name;
     private TickleFactory generator;

@@ -1,8 +1,8 @@
-package model.factories;
+package org.tickler.model.factories;
 
-import exceptions.ProductionException;
-import model.Tickle;
-import model.context.Comment;
+import org.tickler.exceptions.ProductionException;
+import org.tickler.model.Tickle;
+import org.tickler.model.context.Comment;
 
 import javax.persistence.Entity;
 import java.util.ArrayList;

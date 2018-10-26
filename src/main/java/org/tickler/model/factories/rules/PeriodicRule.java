@@ -1,6 +1,6 @@
-package model.factories.rules;
+package org.tickler.model.factories.rules;
 
-import exceptions.InsufficientDataAvailableException;
+import org.tickler.exceptions.InsufficientDataAvailableException;
 import org.apache.commons.lang3.time.DateUtils;
 
 import javax.persistence.Entity;

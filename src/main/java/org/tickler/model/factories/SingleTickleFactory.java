@@ -1,7 +1,7 @@
-package model.factories;
+package org.tickler.model.factories;
 
-import exceptions.ProductionException;
-import model.Tickle;
+import org.tickler.exceptions.ProductionException;
+import org.tickler.model.Tickle;
 
 import java.util.Date;
 

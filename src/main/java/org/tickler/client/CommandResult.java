@@ -1,4 +1,4 @@
-package client;
+package org.tickler.client;
 
 import java.util.List;
 import java.util.stream.Stream;
@@ -8,6 +8,10 @@ import java.util.stream.Stream;
  */
 public abstract class CommandResult<T> {
     private List<T> results;
+
+    protected CommandResult(List<T> results) {
+        this.setResults(results);
+    }
 
     public T get(Integer index) {
         return this.results.get(index);
@@ -19,5 +23,10 @@ public abstract class CommandResult<T> {
 
     public Stream<T> stream() {
         return this.getResults().stream();
+    }
+
+    public CommandResult<T> setResults(List<T> results) {
+        this.results = results;
+        return this;
     }
 }

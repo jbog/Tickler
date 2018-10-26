@@ -1,4 +1,4 @@
-package tests.dates;
+package org.tickler.dates;
 
 /**
  * Created by jasper on 14/10/18.

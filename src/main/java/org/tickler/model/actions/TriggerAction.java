@@ -1,6 +1,6 @@
-package model.actions;
+package org.tickler.model.actions;
 
-import model.Tickle;
+import org.tickler.model.Tickle;
 
 /**
  * Created by jasper on 12/10/18.

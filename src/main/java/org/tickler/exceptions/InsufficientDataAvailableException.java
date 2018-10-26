@@ -1,4 +1,4 @@
-package exceptions;
+package org.tickler.exceptions;
 
 /**
  * Created by jasper on 14/10/18.

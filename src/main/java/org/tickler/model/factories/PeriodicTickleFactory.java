@@ -1,9 +1,9 @@
-package model.factories;
+package org.tickler.model.factories;
 
-import exceptions.InsufficientDataAvailableException;
-import exceptions.ProductionException;
-import model.Tickle;
-import model.factories.rules.GeneratorRule;
+import org.tickler.exceptions.InsufficientDataAvailableException;
+import org.tickler.exceptions.ProductionException;
+import org.tickler.model.Tickle;
+import org.tickler.model.factories.rules.GeneratorRule;
 
 import java.util.Date;
 import java.util.HashMap;
